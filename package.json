@@ -1,0 +1,25 @@
+{
+  "name": "beyond-minds-motion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts StopHuntHook out/hook.mp4",
+    "render:full": "remotion render src/index.ts MainVideo out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/paths": "latest",
+    "@remotion/shapes": "latest",
+    "@remotion/google-fonts": "latest",
+    "@remotion/transitions": "latest",
+    "remotion": "latest",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/react": "18.3.3"
+  }
+}
